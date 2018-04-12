@@ -1,0 +1,9 @@
+resolver: lts-10.2
+packages:
+  - reference
+  - control
+  - st
+  - samples/kuku
+  - samples/prime
+  - lib
+#  - prepare

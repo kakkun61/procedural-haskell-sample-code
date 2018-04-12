@@ -1,0 +1,97 @@
+name:                st-sample
+version:             0.1.0.0
+license:             BSD3
+author:              Kazuki Okamoto
+maintainer:          kazuki.okamoto@kakkun61.com
+copyright:           2018 Kazuki Okamoto
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable st00
+  hs-source-dirs:      .
+  main-is:             Main00.hs
+  ghc-options:         -threaded
+                       -rtsopts
+                       -with-rtsopts=-N
+                       -Wall
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wmonomorphism-restriction
+                       -Wimplicit-prelude
+                       -Wmissing-local-signatures
+                       -Wmissing-exported-signatures
+                       -Wmissing-import-lists
+                       -Wmissing-home-modules
+                       -Widentities
+                       -Wredundant-constraints
+                       -Wno-implicit-prelude
+  build-depends:       base
+                     , procedural
+  default-language:    Haskell2010
+
+executable st01
+  hs-source-dirs:      .
+  main-is:             Main01.hs
+  ghc-options:         -threaded
+                       -rtsopts
+                       -with-rtsopts=-N
+                       -Wall
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wmonomorphism-restriction
+                       -Wimplicit-prelude
+                       -Wmissing-local-signatures
+                       -Wmissing-exported-signatures
+                       -Wmissing-import-lists
+                       -Wmissing-home-modules
+                       -Widentities
+                       -Wredundant-constraints
+                       -Wno-implicit-prelude
+  build-depends:       base
+                     , procedural
+                     , transformers
+  default-language:    Haskell2010
+
+executable st02
+  hs-source-dirs:      .
+  main-is:             Main02.hs
+  ghc-options:         -threaded
+                       -rtsopts
+                       -with-rtsopts=-N
+                       -Wall
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wmonomorphism-restriction
+                       -Wimplicit-prelude
+                       -Wmissing-local-signatures
+                       -Wmissing-exported-signatures
+                       -Wmissing-import-lists
+                       -Wmissing-home-modules
+                       -Widentities
+                       -Wredundant-constraints
+                       -Wno-implicit-prelude
+  build-depends:       base
+                     , vector
+  default-language:    Haskell2010
+
+executable st03
+  hs-source-dirs:      .
+  main-is:             Main03.hs
+  ghc-options:         -threaded
+                       -rtsopts
+                       -with-rtsopts=-N
+                       -Wall
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wmonomorphism-restriction
+                       -Wimplicit-prelude
+                       -Wmissing-local-signatures
+                       -Wmissing-exported-signatures
+                       -Wmissing-import-lists
+                       -Wmissing-home-modules
+                       -Widentities
+                       -Wredundant-constraints
+                       -Wno-implicit-prelude
+  build-depends:       base
+                     , vector
+  default-language:    Haskell2010
